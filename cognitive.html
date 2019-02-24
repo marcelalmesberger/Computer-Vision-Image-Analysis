@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cognitive Services Sample</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="imageAnalysis.js"></script>
+</head>
+<body>
+    <div>
+        <!-- TODO: Insert text input for entering the subscription key, with id="subscriptionKey" -->
+        <!-- Use a label and an input element -->
+        <label for="subscriptionKey">Enter your cloud subscription key:</label>
+        <input type="text" name="subscriptionKey" id="subscriptionKey">
+    </div>
+    <div>
+        <!-- TODO: Insert text input for the image URL, with id="inputImage" -->
+        <!-- Use a label and an input element -->
+        <label for="inputImage">Enter image URL:</label>
+        <input type="text" name="inputImage" id="inputImage">
+    </div>
+    <div>
+        <!-- TODO: Insert a button that executes the JavaScript function analyzeButtonClick() when clicked -->
+        <button onclick="analyzeButtonClick()">Analyze Image</button>
+    </div>
+    <div>
+        <!-- TODO: Insert textarea with id="responseTextArea" for text output -->
+        <textarea id="responseTextArea"></textarea>
+    </div>
+</body>
+</html>
+
