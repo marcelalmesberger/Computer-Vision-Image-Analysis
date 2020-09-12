@@ -1,6 +1,10 @@
 # Computer Vision Image Anaylsis
 Program, which allows the analysis of images using Microsoft's Computer Vision.
 
+## Used technologies
+
+HTML, JavaScript, jQuery, Microsoft Azure
+
 ## Prerequisites
 
 1. Have a Microsoft Azure account and be familiar with Cognitive Services.
